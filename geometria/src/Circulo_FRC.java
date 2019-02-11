@@ -7,6 +7,12 @@ public class Circulo_FRC extends FiguraGeometrica_FRC {
 	public Circulo_FRC(double r, String tipoFigura) {
 		super(tipoFigura);
 		radio = r;
+		
+		if (radio < 0) {
+			radio = 0;
+		}
+		
+		
 	}
 
 	@Override
