@@ -1,10 +1,10 @@
 
-public class Circulo extends FiguraGeometrica {
+public class Circulo_FRC extends FiguraGeometrica_FRC {
 	private double radio;
 	//Constante pi
 	static final double PI = 3.1416;
 	
-	public Circulo(double r, String tipoFigura) {
+	public Circulo_FRC(double r, String tipoFigura) {
 		super(tipoFigura);
 		radio = r;
 	}
@@ -19,5 +19,5 @@ public class Circulo extends FiguraGeometrica {
 	public double perimetro() {
 		return radio * 2 * PI;
 	}
-a
+
 }
