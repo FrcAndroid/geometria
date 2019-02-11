@@ -23,7 +23,5 @@ public class Triangulo_FRC extends FiguraGeometrica_FRC {
 		return Math.sqrt(sp * (sp-lado1) * (sp-lado2) * (sp-lado3));
 	}
 	
-	public double semiPerimetro() {
-		return this.perimetro() / 2;
-	}
+	
 }
